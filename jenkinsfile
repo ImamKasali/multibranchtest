@@ -3,7 +3,7 @@ pipeline{
   stages {
     stage ('branch test"){
         steps{
-                echo "the branch name is ${ednv.BRANCH_NAME}"
+                echo "the branch name is ${env.BRANCH_NAME}"
               }
             }
           }
